@@ -1,0 +1,956 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------------------------------------RESET-------------------------------------------------*/
+.reset-0 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.reset-left {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+.reset-center {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.reset-right {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+/*-----------------------------------------------HEADER-------------------------------------------------*/
+.header-content {
+	max-width: 940px;
+	margin: 0px auto;
+}
+.image-logo {
+	width: 44px;
+	height: 48px;
+}
+.content-logo {
+	padding-top: 1px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #BE9334;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.fix-nav {
+	margin-bottom: 0px;
+	background-color: #fff;
+	border: none;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fix_a_navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.fix_collapse {
+	/*padding-right: 0px;*/
+}
+.header-content ul li a {
+	padding-left: 0px;
+}
+.header-content ul li a.active {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /*text-align: center;*/
+  color: #015691;
+}
+
+.navbar-default .fix-navbar-toggle .fix-icon-bar {
+	margin-top: 1.5px;
+	/*background-color: #000;*/
+	height: 3px;
+
+}
+.fix-navbar-toggle {
+	border: none;
+	margin-top: 2px;
+}
+
+.navbar-default .fix-navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-default .fix-navbar-toggle:hover, .navbar-default .fix-navbar-toggle:focus {
+    background-color: #fff;
+}
+
+/*---------------------------------------------MAIN_CONTENT-------------------------------------------------*/
+
+
+/*----------------------SLIDER--------------------------*/
+
+/*slide*/
+.slider {
+	width: 100%;
+	position: relative;
+	height: 495px;
+}
+.slider img {
+	width: 100%;
+
+}
+.carousel-inner > .item > img {
+	height: 495px;
+}
+
+/*Form*/
+.div-form {
+	max-width: 930px;
+	margin: 0 auto;
+}
+.form1 {
+	position: absolute;
+	top:35px;
+	width: 450px;
+	height: 395px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.form-header {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #e3b10d;
+	text-transform: uppercase;
+	padding-top: 26px;
+}
+.form-title{
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	color: #262626;
+	padding-top: 8px;
+	padding-bottom: 30px;
+}
+button.submit {
+	width: 140px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #015691;
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 8px;
+}
+.fix-input-form-control{
+	width: 90%;
+}
+
+#datepicker {
+	position: relative;
+}
+
+.calender-in-form {
+	position: absolute;
+	top: 10px;
+	right: 60px;
+}
+
+
+
+/*------------------------SERVICE-----------------------*/
+.services {
+	border-bottom: 2px solid #ccc;
+	clear: both;
+}
+.div-services {
+	max-width: 940px;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 25px;
+	padding-bottom: 35px;
+}
+.div-img{
+	/*width: 60px;*/
+}
+.img-one-service {
+	width: 60px;
+	height: 60px;
+}
+
+.service-title {
+	font-size: 16px;
+	font-weight: 600;
+	/*text-align: center;*/
+	color: #262626;
+}
+
+.service-content {
+	font-size: 14px;
+	color: #262626;
+}
+
+/*------------------------CARS--------------------------*/
+
+.cars-header{
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+.cars-header:after {
+	content: '';
+	display: block;
+	width: 130px;
+	border: solid 1px #015691;
+	margin: 0 auto;
+}
+.cars-header-content {
+	font-size: 24px;
+	font-weight: 600;
+	color: #262626;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*car-main*/
+.cars-main {
+	max-width: 960px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+
+}
+.cars-main img {
+	max-width: 100%;
+
+}
+.thumb {
+	max-width: 300px;
+}
+.cars-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.cars-title-link{
+	font-size: 17px;
+	font-weight: 300;
+	color: #262626;
+	word-spacing: -1px;
+}
+.owl-item .active {
+	max-width: 300px;
+	padding-right: 0px;
+}
+.cars-main p {
+	font-size: 17px;
+	font-weight: 300;
+	color: #262626;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+/*-- Chỉnh phần Carousel Car*/
+.owl-prev1 {
+	min-height: 46px;
+	max-width: 20px;
+	float: left;
+}
+
+.owl-next1 {
+	min-height: 46px;
+	max-width: 20px;
+	float: right;
+}
+
+.owl-controls{
+    max-width: 1040px;
+    min-width: 980px;
+    margin: auto;
+	overflow: hidden;
+    position: relative;
+    top: -225px;
+    /*padding-right: 20px*/
+}
+
+
+/*------------------------------NEWS--------------------------------*/
+.news {
+	background-color: #f5f5f5;
+}
+/*news-main*/
+.news-main {
+	max-width: 960px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding-bottom: 58px;
+}
+.news-main img {
+	width: 100%;
+}
+.news-title {
+	line-height: 1;
+	margin-top: 0px;
+	/*text-align: center;*/
+}
+.news-title-link {
+	font-size: 17px;
+	font-weight: 600;
+	text-align: justify;
+	color: #262626;
+}
+.news-content {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: justify;
+	color: #000000;
+}
+
+
+/*-------------------------------FOOTER-------------------------------------*/
+.footer {
+  	border-top: solid 5px #e4b10d;
+}
+.footer-content{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.footer1{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.footer2 {
+	margin-bottom: 16px;
+}
+
+
+/*-----------------CONFIG DESTOP, MOBILE---------------------*/
+
+/*------Cho mobile--------*/
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+/*Mobile 425-767*/
+/*header*/
+.image-logo {
+	width: 32px;
+	height: 34.8px;
+}
+
+.content-logo {
+	font-size: 16px;
+	margin-bottom: 0px;
+	padding-top: 8px;
+	padding-left: 12px;
+}
+.header-content ul li a {
+	padding-left: 15px;
+}
+.fix-nav {
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fix-navbar-toggle {
+	border: none;
+	margin-top: 2px;
+	padding-right: 0px;
+}
+
+/*Slide and form*/
+.div-form {
+	max-width: 390px;
+}
+
+.control-label{
+	display: none;
+}
+
+.form1 {
+	top:25px;
+	width: 390px;
+	height: 420px;
+}
+
+.fix-input-form-control {
+    width: 85%;
+    margin: 0 auto;
+}
+.form-title {
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fix_button_submit {
+	text-align: center;
+}
+
+/*service*/
+.mobile {
+	display: none;
+}
+.img-one-service {
+	width: 24px;
+	height: 24px;
+}
+.service-title {
+	font-size: 12px;
+	text-align: center;
+}
+.div-img{
+	text-align: center;
+	margin-bottom: 6px;
+}
+.div-services {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.services {
+    border-bottom: 1px solid #ccc;
+}
+
+/*CAR*/
+.thumb {
+    margin: auto;
+}
+
+.cars-title {
+	display: none;
+}
+
+.cars-main {
+	width: 95%;
+}
+
+.reset-center {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.owl-item{
+	width: 90%;
+}
+
+
+/*// Courosel Car*/
+.owl-controls{
+	display: none;
+}
+
+.owl-stage {
+	left: -50px;
+}
+.owl-item {
+
+}
+
+
+/*NEWS*/
+.news-mobile {
+	display: none;
+}
+
+/*FOOTER*/
+.footer-content{
+	font-size: 12px;
+}
+.footer1{
+	margin-top: 12px;
+	margin-bottom: 9px;
+	font-weight: normal;
+}
+.footer2 {
+	margin-bottom: 16px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+/*END MEDIA Mobile 425 - 767*/
+}
+
+
+
+
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+
+/*header*/
+.image-logo {
+	width: 32px;
+	height: 34.8px;
+}
+
+.content-logo {
+	font-size: 15px;
+	font-weight: 600;
+	color: #BE9334;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding-top: 8px;
+	padding-left: 12px;
+}
+.header-content ul li a {
+	padding-left: 15px;
+}
+.fix-nav {
+	margin-bottom: 0px;
+	background-color: #fff;
+	border: none;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fix-navbar-toggle {
+	border: none;
+	margin-top: 2px;
+	padding-right: 0px;
+}
+
+/*Slide and form*/
+.div-form {
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.control-label{
+	display: none;
+}
+
+
+.form1 {
+	position: absolute;
+	top:25px;
+	width: 350px;
+	height: 420px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.fix-input-form-control {
+    width: 85%;
+    margin: 0 auto;
+}
+.form-title {
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fix_button_submit {
+	text-align: center;
+}
+
+/*service*/
+.mobile {
+	display: none;
+}
+.img-one-service {
+	width: 24px;
+	height: 24px;
+}
+.service-title {
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	color: #262626;
+}
+.div-img{
+	text-align: center;
+	margin-bottom: 6px;
+}
+.div-services {
+    max-width: 940px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.services {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+}
+
+/*CAR*/
+
+.cars-title {
+	display: none;
+}
+
+.cars-main {
+	width: 95%;
+	/*margin: auto;*/
+	/*max-width: 500px;*/
+}
+.thumb {
+	/*margin-left: 100px;*/
+    /*min-width: 150px;*/
+    /*max-width: 350px;*/
+    /*min-width: 300px;*/
+/*  	margin-left: 50px;
+  	padding-right: 70px;*/
+    /*margin: auto;*/
+    max-width: 300px;
+    margin: auto;
+}
+.reset-center {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.owl-item{
+	width: 90%;
+}
+
+
+/*// Courosel Car*/
+.owl-controls{
+	display: none;
+}
+
+.owl-stage {
+	left: -25px;
+}
+.owl-item {
+
+}
+
+
+/*NEWS*/
+.news-mobile {
+	display: none;
+}
+
+/*FOOTER*/
+.footer-content{
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	padding: 0px 7px;
+}
+.footer1{
+	margin-top: 12px;
+	margin-bottom: 9px;
+	font-weight: normal;
+}
+.footer2 {
+	margin-bottom: 16px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+/*END MEDIA Mobile 375 - 424*/
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 374px) and (min-width: 0px) {
+
+/*header*/
+.image-logo {
+	width: 28px;
+	height: 30.8px;
+}
+
+.content-logo {
+	font-size: 12px;
+	font-weight: 600;
+	color: #BE9334;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding-top: 8px;
+	padding-left: 12px;
+}
+.header-content ul li a {
+	padding-left: 15px;
+}
+.fix-nav {
+	margin-bottom: 0px;
+	background-color: #fff;
+	border: none;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fix-navbar-toggle {
+	border: none;
+	margin-top: 2px;
+	padding-right: 0px;
+}
+
+
+/*Slide and form*/
+.div-form {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.control-label{
+	display: none;
+}
+
+
+.form1 {
+	position: absolute;
+	top:25px;
+	width: 300px;
+	height: 420px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.fix-input-form-control {
+    width: 85%;
+    margin: 0 auto;
+}
+.form-title {
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fix_button_submit {
+	text-align: center;
+}
+.form-header{
+	font-size: 25px;
+}
+.form-title {
+	font-size: 12px;
+}
+/*service*/
+.mobile {
+	display: none;
+}
+.img-one-service {
+	width: 24px;
+	height: 24px;
+}
+.service-title {
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	color: #262626;
+}
+.div-img{
+	text-align: center;
+	margin-bottom: 6px;
+}
+.div-services {
+    max-width: 940px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.services {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    padding: 0px 5px;
+}
+
+/*CAR*/
+
+.cars-title {
+	display: none;
+}
+
+.cars-main {
+	/*width: 95%;*/
+	/*margin: auto;*/
+	/*max-width: 500px;*/
+}
+.thumb {
+	/*margin-left: 100px;*/
+    /*min-width: 150px;*/
+    /*max-width: 350px;*/
+    /*min-width: 300px;*/
+/*  	margin-left: 50px;
+  	padding-right: 70px;*/
+    /*margin: auto;*/
+    max-width: 250px;
+    margin: auto;
+}
+.reset-center {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.owl-item{
+	/*width: 70%;*/
+}
+
+
+/*// Courosel Car*/
+.owl-controls{
+	display: none;
+}
+
+.owl-stage {
+	left: -20px;
+}
+
+
+
+/*NEWS*/
+.news-mobile {
+	display: none;
+}
+
+/*FOOTER*/
+.footer-content{
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	padding: 0px 7px;
+}
+.footer1{
+	margin-top: 12px;
+	margin-bottom: 9px;
+	font-weight: normal;
+}
+.footer2 {
+	margin-bottom: 16px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+/*END MEDIA Mobile 0 - 374*/
+}
+
+
+
+/*Cho Table*/
+@media screen and (max-width: 939px) and (min-width: 768px) {
+
+/*Header*/
+
+/*header*/
+.image-logo {
+	width: 32px;
+	height: 34.8px;
+}
+
+.content-logo {
+	font-size: 16px;
+	font-weight: 600;
+	color: #BE9334;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding-top: 8px;
+	padding-left: 12px;
+}
+.header-content ul li a {
+	padding-left: 15px;
+}
+.fix-nav {
+	margin-bottom: 0px;
+	background-color: #fff;
+	border: none;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-content ul li a {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+/*Side and form*/
+.div-form {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+/*service*/
+.reset-left {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.reset-center {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.reset-right {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*CAR*/
+.cars-main {
+	width: 93%;
+	margin: auto;
+}
+.thumb {
+/*	margin-left: 50px;*/
+    max-width: 300px;
+    width: 93%;
+    margin: auto;
+}
+
+/*Carousel Carr*/
+.owl-controls{
+	/*display: none;*/
+	max-width: 940px;
+	min-width: 768px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	top: -210px;
+}
+.cars-title {
+    max-width: 240px;
+    margin: 0 auto;
+}
+.cars-title-link{
+	font-size: 14px;
+	font-weight: 300;
+	color: #262626;
+	word-spacing: -1px;
+}
+
+
+/*News*/
+.news-main {
+	width: 95%;
+	/*margin: auto;*/
+	/*max-width: 500px;*/
+}
+
+.news-title-link {
+	font-size: 15px;
+	font-weight: 600;
+	text-align: justify;
+	color: #262626;
+}
+
+.news-content {
+	font-size: 13px;
+	font-weight: 300;
+	text-align: justify;
+	color: #000000;
+}
+
+/*END MEDIA TAPLET*/
+}
