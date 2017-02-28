@@ -1,4 +1,3 @@
-
 * {
 	padding: 0;
 	margin: 0;
@@ -9,7 +8,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*----------------------------------------------RESET-------------------------------------------------*/
+/*-------------RESET------------*/
 .reset-0 {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -30,7 +29,7 @@ body {
 	padding-right: 0px;
 }
 
-/*-----------------------------------------------HEADER-------------------------------------------------*/
+/*----------------HEADER-------------*/
 .header-content {
 	max-width: 940px;
 	margin: 0px auto;
@@ -69,19 +68,17 @@ body {
 	padding-left: 0px;
 }
 .header-content ul li a.active {
-  font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  /*text-align: center;*/
-  color: #015691;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #015691;
 }
 
 .navbar-default .fix-navbar-toggle .fix-icon-bar {
 	margin-top: 1.5px;
-	/*background-color: #000;*/
 	height: 3px;
 
 }
@@ -89,7 +86,6 @@ body {
 	border: none;
 	margin-top: 2px;
 }
-
 .navbar-default .fix-navbar-toggle .icon-bar {
     background-color: #000;
 }
@@ -98,10 +94,8 @@ body {
     background-color: #fff;
 }
 
-/*---------------------------------------------MAIN_CONTENT-------------------------------------------------*/
 
-
-/*----------------------SLIDER--------------------------*/
+/*------------SLIDER---------------*/
 
 /*slide*/
 .slider {
@@ -158,20 +152,16 @@ button.submit {
 .fix-input-form-control{
 	width: 90%;
 }
-
 #datepicker {
 	position: relative;
 }
-
 .calender-in-form {
 	position: absolute;
 	top: 10px;
 	right: 60px;
 }
 
-
-
-/*------------------------SERVICE-----------------------*/
+/*---------------------SERVICE------------------*/
 .services {
 	border-bottom: 2px solid #ccc;
 	clear: both;
@@ -194,16 +184,14 @@ button.submit {
 .service-title {
 	font-size: 16px;
 	font-weight: 600;
-	/*text-align: center;*/
 	color: #262626;
 }
-
 .service-content {
 	font-size: 14px;
 	color: #262626;
 }
 
-/*------------------------CARS--------------------------*/
+/*------------------------CARS----------------------*/
 
 .cars-header{
 	padding-top: 35px;
@@ -233,7 +221,7 @@ button.submit {
 
 }
 .cars-main img {
-	max-width: 100%;
+	/*max-width: 100%;*/
 
 }
 .thumb {
@@ -289,8 +277,7 @@ button.submit {
     /*padding-right: 20px*/
 }
 
-
-/*------------------------------NEWS--------------------------------*/
+/*----------------NEWS---------------*/
 .news {
 	background-color: #f5f5f5;
 }
@@ -305,9 +292,8 @@ button.submit {
 	width: 100%;
 }
 .news-title {
-	line-height: 1;
+	line-height: 0.8;
 	margin-top: 0px;
-	/*text-align: center;*/
 }
 .news-title-link {
 	font-size: 17px;
@@ -322,8 +308,7 @@ button.submit {
 	color: #000000;
 }
 
-
-/*-------------------------------FOOTER-------------------------------------*/
+/*---------------FOOTER-------------*/
 .footer {
   	border-top: solid 5px #e4b10d;
 }
@@ -342,615 +327,284 @@ button.submit {
 }
 
 
-/*-----------------CONFIG DESTOP, MOBILE---------------------*/
-
-/*------Cho mobile--------*/
-
-@media screen and (max-width: 767px) and (min-width: 425px) {
-/*Mobile 425-767*/
-/*header*/
-.image-logo {
-	width: 32px;
-	height: 34.8px;
-}
-
-.content-logo {
-	font-size: 16px;
-	margin-bottom: 0px;
-	padding-top: 8px;
-	padding-left: 12px;
-}
-.header-content ul li a {
-	padding-left: 15px;
-}
-.fix-nav {
-	padding-top: 5px;
-    padding-bottom: 5px;
-}
-.fix-navbar-toggle {
-	border: none;
-	margin-top: 2px;
-	padding-right: 0px;
-}
-
-/*Slide and form*/
-.div-form {
-	max-width: 390px;
-}
-
-.control-label{
-	display: none;
-}
-
-.form1 {
-	top:25px;
-	width: 390px;
-	height: 420px;
-}
-
-.fix-input-form-control {
-    width: 85%;
-    margin: 0 auto;
-}
-.form-title {
-    padding-top: 8px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.fix_button_submit {
-	text-align: center;
-}
-
-/*service*/
-.mobile {
-	display: none;
-}
-.img-one-service {
-	width: 24px;
-	height: 24px;
-}
-.service-title {
-	font-size: 12px;
-	text-align: center;
-}
-.div-img{
-	text-align: center;
-	margin-bottom: 6px;
-}
-.div-services {
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-.services {
-    border-bottom: 1px solid #ccc;
-}
-
-/*CAR*/
-.thumb {
-    margin: auto;
-}
-
-.cars-title {
-	display: none;
-}
-
-.cars-main {
-	width: 95%;
-}
-
-.reset-center {
-	padding-left: 0px;
-	padding-right: 0px;
-
-}
-
-.owl-item{
-	width: 90%;
-}
-
-
-/*// Courosel Car*/
-.owl-controls{
-	display: none;
-}
-
-.owl-stage {
-	left: -50px;
-}
-.owl-item {
-
-}
-
-
-/*NEWS*/
-.news-mobile {
-	display: none;
-}
-
-/*FOOTER*/
-.footer-content{
-	font-size: 12px;
-}
-.footer1{
-	margin-top: 12px;
-	margin-bottom: 9px;
-	font-weight: normal;
-}
-.footer2 {
-	margin-bottom: 16px;
-	margin-left: 7px;
-	margin-right: 7px;
-}
-/*END MEDIA Mobile 425 - 767*/
-}
-
-
-
-
-
-@media screen and (max-width: 424px) and (min-width: 375px) {
-
-/*header*/
-.image-logo {
-	width: 32px;
-	height: 34.8px;
-}
-
-.content-logo {
-	font-size: 15px;
-	font-weight: 600;
-	color: #BE9334;
-	text-transform: uppercase;
-	margin-bottom: 0px;
-	padding-top: 8px;
-	padding-left: 12px;
-}
-.header-content ul li a {
-	padding-left: 15px;
-}
-.fix-nav {
-	margin-bottom: 0px;
-	background-color: #fff;
-	border: none;
-	padding-top: 5px;
-    padding-bottom: 5px;
-}
-.fix-navbar-toggle {
-	border: none;
-	margin-top: 2px;
-	padding-right: 0px;
-}
-
-/*Slide and form*/
-.div-form {
-	max-width: 350px;
-	margin: 0 auto;
-}
-
-.control-label{
-	display: none;
-}
-
-
-.form1 {
-	position: absolute;
-	top:25px;
-	width: 350px;
-	height: 420px;
-	border-radius: 5px;
-	background-color: rgba(255, 255, 255, 0.8);
-}
-
-.fix-input-form-control {
-    width: 85%;
-    margin: 0 auto;
-}
-.form-title {
-    padding-top: 8px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.fix_button_submit {
-	text-align: center;
-}
-
-/*service*/
-.mobile {
-	display: none;
-}
-.img-one-service {
-	width: 24px;
-	height: 24px;
-}
-.service-title {
-	font-size: 12px;
-	font-weight: 600;
-	text-align: center;
-	color: #262626;
-}
-.div-img{
-	text-align: center;
-	margin-bottom: 6px;
-}
-.div-services {
-    max-width: 940px;
-    margin: auto;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-.services {
-    border-bottom: 1px solid #ccc;
-    clear: both;
-}
-
-/*CAR*/
-
-.cars-title {
-	display: none;
-}
-
-.cars-main {
-	width: 95%;
-	/*margin: auto;*/
-	/*max-width: 500px;*/
-}
-.thumb {
-	/*margin-left: 100px;*/
-    /*min-width: 150px;*/
-    /*max-width: 350px;*/
-    /*min-width: 300px;*/
-/*  	margin-left: 50px;
-  	padding-right: 70px;*/
-    /*margin: auto;*/
-    max-width: 300px;
-    margin: auto;
-}
-.reset-center {
-	padding-left: 0px;
-	padding-right: 0px;
-
-}
-
-.owl-item{
-	width: 90%;
-}
-
-
-/*// Courosel Car*/
-.owl-controls{
-	display: none;
-}
-
-.owl-stage {
-	left: -25px;
-}
-.owl-item {
-
-}
-
-
-/*NEWS*/
-.news-mobile {
-	display: none;
-}
-
-/*FOOTER*/
-.footer-content{
-	font-size: 12px;
-	color: #000000;
-	text-align: center;
-	padding: 0px 7px;
-}
-.footer1{
-	margin-top: 12px;
-	margin-bottom: 9px;
-	font-weight: normal;
-}
-.footer2 {
-	margin-bottom: 16px;
-	margin-left: 7px;
-	margin-right: 7px;
-}
-/*END MEDIA Mobile 375 - 424*/
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width: 374px) and (min-width: 0px) {
-
-/*header*/
-.image-logo {
-	width: 28px;
-	height: 30.8px;
-}
-
-.content-logo {
-	font-size: 12px;
-	font-weight: 600;
-	color: #BE9334;
-	text-transform: uppercase;
-	margin-bottom: 0px;
-	padding-top: 8px;
-	padding-left: 12px;
-}
-.header-content ul li a {
-	padding-left: 15px;
-}
-.fix-nav {
-	margin-bottom: 0px;
-	background-color: #fff;
-	border: none;
-	padding-top: 5px;
-    padding-bottom: 5px;
-}
-.fix-navbar-toggle {
-	border: none;
-	margin-top: 2px;
-	padding-right: 0px;
-}
-
-
-/*Slide and form*/
-.div-form {
-	max-width: 300px;
-	margin: 0 auto;
-}
-
-.control-label{
-	display: none;
-}
-
-
-.form1 {
-	position: absolute;
-	top:25px;
-	width: 300px;
-	height: 420px;
-	border-radius: 5px;
-	background-color: rgba(255, 255, 255, 0.8);
-}
-
-.fix-input-form-control {
-    width: 85%;
-    margin: 0 auto;
-}
-.form-title {
-    padding-top: 8px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.fix_button_submit {
-	text-align: center;
-}
-.form-header{
-	font-size: 25px;
-}
-.form-title {
-	font-size: 12px;
-}
-/*service*/
-.mobile {
-	display: none;
-}
-.img-one-service {
-	width: 24px;
-	height: 24px;
-}
-.service-title {
-	font-size: 12px;
-	font-weight: 600;
-	text-align: center;
-	color: #262626;
-}
-.div-img{
-	text-align: center;
-	margin-bottom: 6px;
-}
-.div-services {
-    max-width: 940px;
-    margin: auto;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-.services {
-    border-bottom: 1px solid #ccc;
-    clear: both;
-    padding: 0px 5px;
-}
-
-/*CAR*/
-
-.cars-title {
-	display: none;
-}
-
-.cars-main {
-	/*width: 95%;*/
-	/*margin: auto;*/
-	/*max-width: 500px;*/
-}
-.thumb {
-	/*margin-left: 100px;*/
-    /*min-width: 150px;*/
-    /*max-width: 350px;*/
-    /*min-width: 300px;*/
-/*  	margin-left: 50px;
-  	padding-right: 70px;*/
-    /*margin: auto;*/
-    max-width: 250px;
-    margin: auto;
-}
-.reset-center {
-	padding-left: 0px;
-	padding-right: 0px;
-
-}
-
-.owl-item{
-	/*width: 70%;*/
-}
-
-
-/*// Courosel Car*/
-.owl-controls{
-	display: none;
-}
-
-.owl-stage {
-	left: -20px;
-}
-
-
-
-/*NEWS*/
-.news-mobile {
-	display: none;
-}
-
-/*FOOTER*/
-.footer-content{
-	font-size: 12px;
-	color: #000000;
-	text-align: center;
-	padding: 0px 7px;
-}
-.footer1{
-	margin-top: 12px;
-	margin-bottom: 9px;
-	font-weight: normal;
-}
-.footer2 {
-	margin-bottom: 16px;
-	margin-left: 7px;
-	margin-right: 7px;
-}
-/*END MEDIA Mobile 0 - 374*/
-}
-
-
-
-/*Cho Table*/
-@media screen and (max-width: 939px) and (min-width: 768px) {
-
-/*Header*/
-
-/*header*/
-.image-logo {
-	width: 32px;
-	height: 34.8px;
-}
-
-.content-logo {
-	font-size: 16px;
-	font-weight: 600;
-	color: #BE9334;
-	text-transform: uppercase;
-	margin-bottom: 0px;
-	padding-top: 8px;
-	padding-left: 12px;
+/*---------CONFIG TABLET, MOBILE------------*/
+
+	/*FOR TABLET*/
+@media screen and (max-width: 939px){
+	/*For tablet 786-939 - check 768*/
+	/*Header*/
+	/*header*/
+	.image-logo {
+		width: 32px;
+		height: 34.8px;
+	}
+	.content-logo {
+		font-size: 16px;
+		font-weight: 600;
+		padding-top: 8px;
+		padding-left: 12px;
+	}
+	.fix-nav {
+		padding-top: 5px;
+	    padding-bottom: 5px;
+	}
+	.header-content ul li a {
+		padding-right: 10px;
+	}
+	/*Side and form*/
+	.div-form {
+		max-width: 450px;
+		margin: 0 auto; /*new*/
+	}
+	/*service*/
+	.reset-left {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.reset-center {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.reset-right {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	/*CAR*/
+	.cars-main {
+		width: 93%;
+		margin: auto;
+	}
+	.thumb {
+	    width: 93%;
+	    margin: auto;
+	}
+	/*Carousel Carr*/
+	.owl-controls{
+		max-width: 940px;
+		min-width: 768px;
+		margin: auto;
+		overflow: hidden;
+		position: relative;
+		top: -210px;
+	}
+	.cars-title {
+	    max-width: 240px;
+	    margin: 0 auto;
+	}
+	.cars-title-link{
+		font-size: 14px;
+	}
+	/*News*/
+	.news-main {
+		width: 95%;
+	}
+	.news-title-link {
+		font-size: 15px;
+	}
+	.news-content {
+		font-size: 13px;
+	}
+	/*END TABLET*/
+}
+
+/*------CONFIG FOR MOBILE--------*/
+@media screen and (max-width: 767px){
+	/*Mobile 425-767*/
+	/*header*/
+	.header-content ul li a {
+		padding-left: 15px;
+	}
+	.fix-navbar-toggle {
+		border: none;
+		margin-top: 2px;
+		padding-right: 0px;
+	}
+	/*Slide and form*/
+	.div-form {
+		max-width: 390px;
+	}
+	.control-label{
+		display: none;
+	}
+	.form1 {
+		top:25px;
+		width: 390px;
+		height: 420px;
+	}
+	.fix-input-form-control {
+	    width: 85%;
+	    margin: 0 auto;
+	}
+	.form-title {
+	    padding-top: 8px;
+	    padding-bottom: 12px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.fix_button_submit {
+		text-align: center;
+	}
+	/*service*/
+	.mobile {
+		display: none;
+	}
+	.img-one-service {
+		width: 24px;
+		height: 24px;
+	} /*new*/
+	.service-title {
+		font-size: 12px;
+		text-align: center;
+	}
+	.div-img{
+		text-align: center;
+		margin-bottom: 6px;
+	}
+	.div-services {
+	    padding-top: 10px;
+	    padding-bottom: 15px;
+	}
+	.services {
+	    border-bottom: 1px solid #ccc;
+	}
+	/*CAR*/
+	.cars-title {
+		display: none;
+	}
+	.cars-main {
+		width: 95%;
+	}
+	.owl-item{
+		width: 90%;
+	}
+	.cars-header-content {
+		font-size: 16px;
+	}
+	.cars-header:after { 
+		/*new*/
+		width: 90px; new
+	} 
+	.cars-header{ 
+		/*new*/
+		padding-top: 15px;
+		padding-bottom: 35px;
+	} 
+	.thumb {
+		/*new*/
+	    width: 100%;
+	    margin: auto;
+	}
+
+	/*Courosel Car*/
+	.owl-controls{
+		display: none;
+	}
+	.owl-stage {
+		left: -50px;
+	}
+	/*NEWS*/
+	.news-mobile {
+		display: none;
+	}
+	.thumb-new {
+		max-width: 350px;
+	}
+	.news-main { 
+		/*new*/
+		padding-bottom: 20px;
+	}
+	/*FOOTER*/
+	.footer-content{
+		font-size: 12px;
+	} /*new*/
+	.footer1{
+		margin-top: 12px;
+		margin-bottom: 9px;
+		font-weight: normal;
+	} /*new*/
+	.footer2 {
+		margin-bottom: 16px;
+		margin-left: 7px;
+		margin-right: 7px;
+	} /*new*/
+	/*END MEDIA Mobile 425 - 767*/
+}
+
+
+@media screen and (max-width: 424px) {
+	/*For Mobile 375-424- check 375*/
+	/*header*/
+	.content-logo {
+		font-size: 15px;
+	}
+	/*Slide and form*/
+	.div-form {
+		max-width: 350px;
+	}
+	.form1 {
+		width: 350px;
+		height: 420px;
+	}
+	/*service*/
+
+	/*CAR*/
+	.owl-item{
+		width: 90%;
+	}
+	/*// Courosel Car*/
+	.owl-stage {
+		left: -25px;
+	}
+	/*NEWS*/
+	/*FOOTER*/
+	.footer-content{
+		font-size: 12px;
+		padding: 0px 7px;
+	}
+	/*END MEDIA Mobile 375 - 424*/
+}
+
+@media screen and (max-width: 374px) {
+	/*Mobile 0-375- check 320*/
+	/*header*/
+	.image-logo {
+		width: 28px;
+		height: 30.8px;
+	}
+	.content-logo {
+		font-size: 12px;
+	}
+	/*Slide and form*/
+	.div-form {
+		max-width: 300px;
+	}
+	.form1 {
+		width: 300px;
+		height: 420px;
+	}
+	.form-header{
+		font-size: 25px;
+	}
+	.form-title {
+		font-size: 12px;
+	}
+	/*service*/
+	.services {
+	    padding: 0px 5px;
+	}
+	/*CAR*/
+	.thumb {
+	    max-width: 250px;
+	    width: 96%;
+	    margin: auto;
+	}
+
+	/*// Courosel Car*/
+	.owl-stage {
+		left: -20px;
+	}
+	/*END MEDIA Mobile 0 - 374*/
 }
-.header-content ul li a {
-	padding-left: 15px;
-}
-.fix-nav {
-	margin-bottom: 0px;
-	background-color: #fff;
-	border: none;
-	padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.header-content ul li a {
-	padding-left: 0px;
-	padding-right: 10px;
-}
-
-/*Side and form*/
-.div-form {
-	max-width: 450px;
-	margin: 0 auto;
-}
-
-/*service*/
-.reset-left {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.reset-center {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.reset-right {
-	padding-left: 0px;
-	padding-right: 0px;
-}
 
-/*CAR*/
-.cars-main {
-	width: 93%;
-	margin: auto;
-}
-.thumb {
-/*	margin-left: 50px;*/
-    max-width: 300px;
-    width: 93%;
-    margin: auto;
-}
-
-/*Carousel Carr*/
-.owl-controls{
-	/*display: none;*/
-	max-width: 940px;
-	min-width: 768px;
-	margin: auto;
-	overflow: hidden;
-	position: relative;
-	top: -210px;
-}
-.cars-title {
-    max-width: 240px;
-    margin: 0 auto;
-}
-.cars-title-link{
-	font-size: 14px;
-	font-weight: 300;
-	color: #262626;
-	word-spacing: -1px;
-}
 
 
-/*News*/
-.news-main {
-	width: 95%;
-	/*margin: auto;*/
-	/*max-width: 500px;*/
-}
-
-.news-title-link {
-	font-size: 15px;
-	font-weight: 600;
-	text-align: justify;
-	color: #262626;
-}
-
-.news-content {
-	font-size: 13px;
-	font-weight: 300;
-	text-align: justify;
-	color: #000000;
-}
-
-/*END MEDIA TAPLET*/
-}
